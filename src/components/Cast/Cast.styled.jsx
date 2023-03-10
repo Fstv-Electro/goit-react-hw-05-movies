@@ -7,6 +7,9 @@ export const List = styled.ul`
     justify-content: center;
     align-items: center;
     list-style: none;
+    margin: 0 auto;
+    padding: 0;
+
 `;
 
 export const Item = styled.li`

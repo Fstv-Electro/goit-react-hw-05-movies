@@ -12,7 +12,8 @@ export const Box = styled.div`
     max-width: 1024px;
     padding: 20px 12px;
     border: 1px solid black;
-    border-radius: 8px ;
+    border-radius: 8px;
+    max-width: 1600px;
 `;
 
 export const Poster = styled.img`
@@ -54,4 +55,5 @@ export const Links = styled(NavLink)`
     text-decoration: none;
     text-align: center;
     width: 80px;
+    border: 1px solid black;
 `;
