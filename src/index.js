@@ -8,7 +8,7 @@ const root = createRoot(rootElement);
 
 root.render(
   <StrictMode>
-    <BrowserRouter baseName="/goit-react-hw-05-movies">
+    <BrowserRouter baseName="/goit-react-hw-05-movies/">
       <App />
     </BrowserRouter>
   </StrictMode>
