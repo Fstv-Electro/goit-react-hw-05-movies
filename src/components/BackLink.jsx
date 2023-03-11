@@ -15,7 +15,6 @@ const StyledLink = styled(NavLink)`
 export const BackLink = ({ to, children }) => {
     return (
         <StyledLink to={to}>
-
             {children}
         </StyledLink>
     );
